@@ -1,0 +1,11 @@
+{
+  "resource_pack_name": "brewing",
+  "num_mip_levels": 4,
+  "padding": 8,
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "none": {
+      "textures": "textures/blocks/none"
+    }
+  }
+}

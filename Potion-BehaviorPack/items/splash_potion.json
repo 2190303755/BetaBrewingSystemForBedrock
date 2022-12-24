@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "brewing:splash_potion",
+      "category": "commands"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.brewing"
+      },
+      "minecraft:display_name": {
+        "value": "item.brewing.splash_potion"
+      },
+      "minecraft:icon": {
+        "texture": "potion_bottle_splash"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:projectile": {
+        "projectile_entity": "brewing:splash_potion"
+      },
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      }
+    }
+  }
+}

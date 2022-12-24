@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "brewing",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "potion_bottle_splash_empty": {
+      "textures": "textures/items/potion_bottle_splash_empty"
+    },
+    "potion_bottle_lingering_empty": {
+      "textures": "textures/items/potion_bottle_lingering_empty"
+    }
+  }
+}

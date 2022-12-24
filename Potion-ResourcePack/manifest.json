@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Cauldron & Potion",
+    "name": "Cauldron & Potion",
+    "uuid": "E9C32CD7-71BC-72F2-EBBC-1696595FD981",
+    "pack_scope": "world",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 60]
+  },
+  "modules": [
+    {
+      "name": "Cauldron & Potion",
+      "type": "resources",
+      "uuid": "0FC59FD4-3154-B6A3-2B8D-94BFF82E2A71",
+      "version": [0, 0, 1]
+    }
+  ]
+}

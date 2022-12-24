@@ -1,0 +1,11 @@
+tile.brewing:cauldron.name=炼药锅
+tile.brewing:cauldron_1.name=炼药锅
+tile.brewing:cauldron_2.name=炼药锅
+tile.brewing:cauldron_3.name=炼药锅
+item.brewing.splash_glass_bottle=喷溅型玻璃瓶
+item.brewing.lingering_glass_bottle=滞留型玻璃瓶
+item.brewing.potion=药水
+item.brewing.splash_potion=喷溅药水
+item.brewing.lingering_potion=滞留药水
+entity.brewing:splash_potion.name=丢出的喷溅药水
+entity.brewing:lingering_potion.name=丢出的滞留药水

@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Cauldron & Potion",
+    "name": "Cauldron & Potion",
+    "uuid": "8D604694-BD02-4FAF-37ED-48161175C2E9",
+    "pack_scope": "world",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 19, 60]
+  },
+  "modules": [
+    {
+      "description": "Cauldron & Potion",
+      "type": "script",
+      "uuid": "EF66CE99-F095-05CC-8A23-77E4B5B112CA",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "mojang-minecraft",
+      "version": "1.1.0-beta"
+    }
+  ]
+}

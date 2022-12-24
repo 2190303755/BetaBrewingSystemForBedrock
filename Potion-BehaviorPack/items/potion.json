@@ -1,0 +1,35 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "brewing:potion",
+      "category": "none"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.brewing"
+      },
+      "minecraft:display_name": {
+        "value": "item.brewing.potion"
+      },
+      "minecraft:icon": {
+        "texture": "potion_bottle_drinkable"
+      },
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "drink",
+      "minecraft:max_stack_size": 1,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "on_consume": {
+          "event": "brewing:on_consume"
+        },
+        "using_converts_to": "minecraft:glass_bottle"
+      }
+    },
+    "events": {
+      "brewing:on_consume": {
+        "decrement_stack": {}
+      }
+    }
+  }
+}

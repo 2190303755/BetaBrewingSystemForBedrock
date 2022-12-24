@@ -1,0 +1,73 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "brewing:cauldron",
+      "properties": {
+        "brewing:bit0": [0, 1],
+        "brewing:bit1": [0, 1],
+        "brewing:bit2": [0, 1],
+        "brewing:bit3": [0, 1],
+        "brewing:bit4": [0, 1],
+        "brewing:bit5": [0, 1],
+        "brewing:bit6": [0, 1],
+        "brewing:bit7": [0, 1],
+        "brewing:bit8": [0, 1],
+        "brewing:bit9": [0, 1],
+        "brewing:bit10": [0, 1],
+        "brewing:bit11": [0, 1],
+        "brewing:bit12": [0, 1],
+        "brewing:bit13": [0, 1],
+        "brewing:bit14": [0, 1],
+        "brewing:bit15": [0, 1]
+      }
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.brewing"
+      },
+      "minecraft:explosion_resistance": 2,
+      "minecraft:block_light_filter": 4,
+      "minecraft:breathability": "air",
+      "minecraft:destroy_time": 10,
+      "minecraft:loot": "loot_tables/empty",
+      "minecraft:geometry": "geometry.block.cauldron",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cauldron_side",
+          "render_method": "opaque"
+        },
+        "top": {
+          "texture": "cauldron_top"
+        },
+        "side": "*",
+        "inner": {
+          "texture": "cauldron_inner"
+        },
+        "bottom": {
+          "texture": "cauldron_bottom"
+        },
+        "content": {
+          "texture": "still_water_grey"
+        }
+      },
+      "minecraft:part_visibility": {
+        "conditions": {
+          "part_1": "0",
+          "part_2": "0",
+          "part_3": "0"
+        }
+      },
+      "minecraft:on_interact": {
+        "event": "brewing:on_interact"
+      },
+      "tag:metal": {}
+    },
+    "events": {
+      "minecraft:on_interact": {
+        "swing": {}
+      }
+    }
+  }
+}
